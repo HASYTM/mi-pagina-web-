@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>Galería - Especias Dany 📸✨</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8dc;
+    color: #4a2f0b;
+  }
+  header {
+    background: linear-gradient(90deg, #ffeb3b, #f7d347);
+    padding: 70px 20px 60px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3.5em;
+    margin: 0 0 15px 0;
+    color: #5a3e0c;
+  }
+  nav {
+    background-color: #f3e5ab;
+    text-align: center;
+    padding: 18px 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  nav a {
+    margin: 0 28px;
+    text-decoration: none;
+    color: #4a2f0b;
+    font-weight: 700;
+    font-size: 1.25em;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
+  }
+  nav a:hover {
+    color: #8b4513;
+    border-bottom-color: #ffeb3b;
+  }
+  section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+    overflow: hidden; /* para contener floats */
+  }
+  .galeria-item {
+    float: left;
+    width: 220px;
+    margin: 10px 15px 20px 0;
+    text-align: center;
+    background: #fffef9;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .galeria-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+  }
+  .galeria-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .galeria-item p {
+    margin-top: 8px;
+    font-weight: 600;
+    color: #5a3e0c;
+    font-size: 1.1em;
+  }
+  .frase {
+    float: right;
+    width: 250px;
+    margin-left: 20px;
+    background: #fffef9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    font-size: 1.2em;
+    color: #6b4e0a;
+    font-style: italic;
+    line-height: 1.6;
+  }
+  footer {
+    background-color: #f3e5ab;
+    text-align: center;
+    padding: 22px;
+    font-size: 1em;
+    color: #4a2f0b;
+    clear: both;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Galería 📸</h1>
+</header>
+<nav>
+  <a href="index.html">Inicio</a>
+  <a href="historia.html">Nuestra historia</a>
+  <a href="galeria.html">Galería 📸</a>
+  <a href="ubicacion.html">Dónde estamos 📍</a>
+</nav>
+<section>
+  <div class="galeria-item">
+    <img src="producto1.jpg" alt="Almendra">
+    <p>🥜 1k Almendra - $220.00</p>
+  </div>
+  <div class="galeria-item">
+    <img src="producto2.jpg" alt="Nuez">
+    <p>🌰 1k Nuez - $320.00</p>
+  </div>
+  <div class="galeria-item">
+    <img src="producto3.jpg" alt="Chile Ancho">
+    <p>🌶️ 1k Chile Ancho - $170.00</p>
+  </div>
+  <div class="galeria-item">
+    <img src="producto4.jpg" alt="Chile Guajillo">
+    <p>🔥 1k Chile Guajillo - $140.00</p>
+  </div>
+  <div class="frase">
+    “El sabor de la tradición en cada semilla 🌿✨  
+    Gracias por acompañarnos en este recorrido de colores y aromas.”  
+  </div>
+</section>
+<footer>
+  ©️ 2025 Especias Dany - Diane Anahi Velasco Cardona & Yeini Violeta Angel Molina
+</footer>
+</body>
+</html>
